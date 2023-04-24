@@ -1,0 +1,5 @@
+const inputEl = document.querySelector("#input-el")
+const btnConvert = document.querySelector("#btn-convert")
+const lengthPart = document.querySelector("#length")
+const volumePart = document.querySelector("#volume")
+const massPart = document.querySelector("#mass")
