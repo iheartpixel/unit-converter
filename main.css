@@ -1,4 +1,78 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+body {
+    background: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+}
+
+#container {
+    width: 550px;
+    margin: 100px auto;
+    padding-bottom: 40px;
+    background: #1F2937;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input {
+    width: 125px;
+    margin: 10px 0 25px 0;
+    background: transparent;
+    border: 1px solid #B295FF;
+    border-radius: 5px;
+    font-size: 68px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    color: #8e82d9
+}
+
+input::-moz-placeholder {
+    color: #8e82d9;
+}
+
+button {
+    padding: 10px 30px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    background-color: #6943FF;
+    font-size: 14px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-calc {
+    width: 500px;
+    height: 100px;
+    margin: 20px auto 0px auto;
+    background: #273549;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.main-heading {
+    font-size: 20px;
+    color: #CCC1FF;
 }

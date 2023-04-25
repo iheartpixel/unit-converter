@@ -10,23 +10,25 @@
     <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 <body>
-    <div id="header">
-        <h1>Metric/Imperial Unit Conversion</h1>
-        <input id="input-el">
-        <button id="btn-convert">Convert</button>
-    </div>
-    <div id="main">
-        <div class="main-calc">
-            <h2>Length (Meter/Feet)</h2>
-            <p id="length"></p>
+    <div id="container">
+        <div id="header">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="input-el" placeholder="0">
+            <button id="btn-convert">Convert</button>
         </div>
-        <div class="main-calc">
-            <h2>Volume (Liters/Gallons)</h2>
-            <p id="volume"></p>
-        </div>
-        <div class="main-calc">
-            <h2>Mass (Kilograms/Pounds)</h2>
-            <p id="mass"></p>
+        <div id="main">
+            <div class="main-calc">
+                <p class="main-heading">Length (Meter/Feet)</p>
+                <p id="length">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            </div>
+            <div class="main-calc">
+                <p class="main-heading">Volume (Liters/Gallons)</p>
+                <p id="volume">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+            </div>
+            <div class="main-calc">
+                <p class="main-heading">Mass (Kilograms/Pounds)</p>
+                <p id="mass">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+            </div>
         </div>
     </div>
 </body>
