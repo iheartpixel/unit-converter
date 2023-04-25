@@ -68,6 +68,7 @@ button {
     height: 100px;
     margin: 20px auto 0px auto;
     background: #273549;
+    border-radius: 10px;
     font-size: 14px;
     color: #FFFFFF;
 }
@@ -75,4 +76,14 @@ button {
 .main-heading {
     font-size: 20px;
     color: #CCC1FF;
+}
+
+@media (max-width: 600px) {
+    #container {
+        width: 380px;
+        margin: 40px auto;
+    }
+    .main-calc {
+        width: 380px;
+    }
 }
